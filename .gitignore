@@ -90,5 +90,3 @@ ENV/
 .idea
 db.sqlite3
 .DS_Store
-
-test-django-project/smart_rest_client
