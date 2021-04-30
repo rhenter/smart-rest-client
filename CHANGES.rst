@@ -1,3 +1,8 @@
+0.1.2
+-----
+
+BugFix: Compare with the correct var
+
 0.1.1
 -----
 
