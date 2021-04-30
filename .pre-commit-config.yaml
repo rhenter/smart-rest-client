@@ -1,0 +1,23 @@
+repos:
+-   repo: git@github.com:pre-commit/pre-commit-hooks
+    rev: v3.1.0
+    hooks:
+    - id: debug-statements
+    - id: trailing-whitespace
+    - id: check-merge-conflict
+    - id: check-executables-have-shebangs
+    - id: check-ast
+    - id: check-byte-order-marker
+    - id: check-json
+    - id: check-symlinks
+    - id: check-vcs-permalinks
+    - id: check-xml
+    - id: check-yaml
+    - id: detect-private-key
+    - id: forbid-new-submodules
+
+-   repo: https://GitHub.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+    - id: flake8
+      args: ['--exclude=docs_src/*,*migrations*', '--ignore=E501']

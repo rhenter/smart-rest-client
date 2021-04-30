@@ -1,0 +1,13 @@
+-r requirements-ci.txt
+check-manifest
+codecov
+coveralls
+ipdb
+ipython
+pre-commit
+Sphinx
+sphinx-autobuild
+sphinx-intl
+sphinxjp.themes.basicstrap
+twine
+wheel
