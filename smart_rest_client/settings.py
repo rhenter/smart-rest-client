@@ -17,7 +17,7 @@ API_CLIENT = {
 }
 
 This module provides the `api_client_setting` object, that is used to access
-Django API Client settings, checking for user settings first, then falling
+Smart Rest Client settings, checking for user settings first, then falling
 back to the defaults.
 """
 from typing import Dict, List
@@ -44,7 +44,7 @@ REQUIRED_KEYS = ['NAME', 'BASE_URL', 'ENDPOINTS']
 
 class APIClientSettings:
     """
-    A settings object that allows Django API Client settings to be accessed as
+    A settings object that allows Smart Rest Client settings to be accessed as
     properties. For example:
 
         from smart_rest_client.settings import smart_rest_client

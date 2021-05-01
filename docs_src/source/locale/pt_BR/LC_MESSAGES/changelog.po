@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Rafael Henter
+# This file is distributed under the same license as the Smart Rest Client
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Rest Client 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-01 13:18-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../../CHANGES.rst:2
+msgid "0.1.2"
+msgstr ""
+
+#: ../../../CHANGES.rst:4
+msgid "BugFix: Compare with the correct var"
+msgstr ""
+
+#: ../../../CHANGES.rst:7
+msgid "0.1.1"
+msgstr ""
+
+#: ../../../CHANGES.rst:9
+msgid "BugFix: Remove django import"
+msgstr ""
+
+#: ../../../CHANGES.rst:12
+msgid "0.1.0"
+msgstr ""
+
+#: ../../../CHANGES.rst:14
+msgid "Initial release"
+msgstr ""
+
+#~ msgid "Changelog"
+#~ msgstr ""
+
+#~ msgid "0.8.0"
+#~ msgstr ""
+
+#~ msgid "Change extra_kwargs class attribute to api_filters"
+#~ msgstr ""
+
+#~ msgid "Change get_extra_params to get_api_params"
+#~ msgstr ""
+
+#~ msgid "0.7.0"
+#~ msgstr ""
+
+#~ msgid "Add filter_params to the context when the request has filter"
+#~ msgstr ""
+
+#~ msgid "0.6.0"
+#~ msgstr ""
+
+#~ msgid "Add response when requests wore Ajax"
+#~ msgstr ""
+
+#~ msgid "0.5.1"
+#~ msgstr ""
+
+#~ msgid "Fix documentation grammar to get clear"
+#~ msgstr ""
+
+#~ msgid "0.5.0"
+#~ msgstr ""
+
+#~ msgid "Add a json converter to serialize the dict when running json.dumps"
+#~ msgstr ""
+
+#~ msgid "0.4.0"
+#~ msgstr ""
+
+#~ msgid "Finish the documentation"
+#~ msgstr ""
+
+#~ msgid "Add new tags to setup.py"
+#~ msgstr ""
+
+#~ msgid "0.3.12"
+#~ msgstr ""
+
+#~ msgid "BugFix: Remove debug from ResponseFactory"
+#~ msgstr ""
+
+#~ msgid "0.3.11"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change the APIClientEndpointList to get "
+#~ "clear when django raises a wrong "
+#~ "call"
+#~ msgstr ""
+
+#~ msgid "0.3.10"
+#~ msgstr ""
+
+#~ msgid "BugFix: Import without the relative import"
+#~ msgstr ""
+
+#~ msgid "0.3.9"
+#~ msgstr ""
+
+#~ msgid "BugFix: Factory repr name with special characters"
+#~ msgstr ""
+
+#~ msgid "0.3.8"
+#~ msgstr ""
+
+#~ msgid "Change Factory name with APIClient signature"
+#~ msgstr ""
+
+#~ msgid "0.3.7"
+#~ msgstr ""
+
+#~ msgid "BugFix: Slug field on ClientAPIAuthenticatedUpdateView to let generic"
+#~ msgstr ""
+
+#~ msgid "0.3.6"
+#~ msgstr ""
+
+#~ msgid "Add new fragment to the endpoint identifier on ClientAPIUpdateView"
+#~ msgstr ""
+
+#~ msgid "0.3.5"
+#~ msgstr ""
+
+#~ msgid "Get the endpoint identifier from the slug_field argument"
+#~ msgstr ""
+
+#~ msgid "0.3.4"
+#~ msgstr ""
+
+#~ msgid "BugFix: Client override when has more than on endpoint in the same base"
+#~ msgstr ""
+
+#~ msgid "Update doc with new client structure"
+#~ msgstr ""
+
+#~ msgid "0.3.3"
+#~ msgstr ""
+
+#~ msgid "Replace URL_BASE to BASE_URL in all places"
+#~ msgstr ""
+
+#~ msgid "0.3.2"
+#~ msgstr ""
+
+#~ msgid "Update readme and documentation"
+#~ msgstr ""
+
+#~ msgid "0.3.1"
+#~ msgstr ""
+
+#~ msgid "Finish the base documentation and Readme"
+#~ msgstr ""
+
+#~ msgid "0.3.0"
+#~ msgstr ""
+
+#~ msgid "Update Doc"
+#~ msgstr ""
+
+#~ msgid "Remove Read the docs to use Github Pages"
+#~ msgstr ""
+
+#~ msgid "Add new structure with a index to to the a lang"
+#~ msgstr ""
+
+#~ msgid "0.2.0"
+#~ msgstr ""
+
+#~ msgid "Fix CI process"
+#~ msgstr ""
+
+#~ msgid "Add tests to increase the coverage"
+#~ msgstr ""
+
+#~ msgid "Fix read me file"
+#~ msgstr ""
+
+#~ msgid "0.1.3"
+#~ msgstr ""
+
+#~ msgid "Add ClientAPIAuthenticatedDeleteView and ClientAPIDeleteView"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "BugFix: Use the correct constant to "
+#~ "defaults (DEFAULTS) and the api "
+#~ "(API_DEFAULTS)"
+#~ msgstr ""
+
+#~ msgid "Add documentation and fix Python version"
+#~ msgstr ""
+
+#~ msgid "Remove python 3.8 from setup because pypi dont support yet"
+#~ msgstr ""
+

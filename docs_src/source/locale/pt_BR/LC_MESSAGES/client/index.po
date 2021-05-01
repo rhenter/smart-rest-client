@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Rafael Henter
+# This file is distributed under the same license as the Smart Rest Client
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Rest Client 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-01 13:18-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/client/index.rst:2
+msgid "Overview"
+msgstr "Visão Geral"
+
+#: ../../source/client/index.rst:4
+msgid ""
+"Smart Rest Client Fis a python wrapper to perform requests to Rest APIs "
+"using objects to request endpoints and their methods"
+msgstr ""
+
+#: ../../source/client/index.rst:15
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../../source/client/index.rst:17
+msgid ""
+"in the core folder of your project, if you haven't, created it within "
+"your project folder to be simple to be imported from anywhere in the "
+"project with the following content:"
+msgstr ""
+
+#: ../../source/client/index.rst:43
+msgid "For more information on the available configurations, see at:"
+msgstr "Para mais informações sobre as configurações diponiveis, veja em:"
+
+#: ../../source/client/index.rst:51
+msgid "Client Methods"
+msgstr "Métodos Cliente"
+
+#: ../../source/client/index.rst:53
+msgid "For each endpoint the client Factory will create the follow structure:"
+msgstr "Para cada endpoint o API Client irá criar a seguinte estrutura:"
+
+#: ../../source/client/index.rst:55
+msgid "Example to ``/user/users/``"
+msgstr "Exemplo para ``/user/users/``"
+
+#: ../../source/client/index.rst:57
+msgid "Create:"
+msgstr "Criar:"
+
+#: ../../source/client/index.rst:64
+msgid "List:"
+msgstr "Listar:"
+
+#: ../../source/client/index.rst:71
+msgid "Get/Retrieve/Detail:"
+msgstr "Get/Recuperar/Detalhe:"
+
+#: ../../source/client/index.rst:78
+msgid "Update:"
+msgstr "Atualizar:"
+
+#: ../../source/client/index.rst:85
+msgid "Delete:"
+msgstr "Deletar:"
+
+#~ msgid ""
+#~ "API Client Factory is a python3 "
+#~ "wrapper for REST APIs. That is, "
+#~ "APIs that follow the pattern of "
+#~ "using the methods as below:"
+#~ msgstr ""
+#~ "O API Client Factory é um wrapper"
+#~ " python3 para APIs REST. Ou seja, "
+#~ "APIs que seguem o padrão de uso"
+#~ " dos métodos abaixo:"
+
+#~ msgid ""
+#~ "To enable `smart_rest_client` in your "
+#~ "project you need to add it to "
+#~ "`INSTALLED_APPS` in your project `settings.py`"
+#~ " file:"
+#~ msgstr ""
+#~ "Para habilitar o `smart_rest_client` você "
+#~ "precisa adiciona-lo ao `INSTALLED_APPS` "
+#~ "no seu arquivo `settings.py` do seu "
+#~ "projeto:"
+
+#~ msgid ""
+#~ "You need also to add your APIs "
+#~ "settings using ``API_CLIENT`` constant. E.g:"
+#~ msgstr ""
+#~ "Você tambem precisa adicionar suas "
+#~ "configurações das suas API usando a "
+#~ "constante ``API_CLIENT``. Ex"
+
+#~ msgid "Client Usage"
+#~ msgstr "Uso do Cliente"
+
+#~ msgid ""
+#~ "Import the api_client_factory module and "
+#~ "create an instance using the name "
+#~ "of the API you set in the "
+#~ "``API_CLIENT`` constant on settings.py file:"
+#~ msgstr ""
+#~ "Importe o modulo api_client_factory e "
+#~ "crie uma instância usando o nome "
+#~ "da API que você definiu na "
+#~ "constante ``API_CLIENT`` no arquivo "
+#~ "settings.py"
+

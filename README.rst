@@ -1,3 +1,6 @@
+`Para visualizar o README em português <https://github.com/rhenter/smart-rest-client/blob/master/README.pt.rst>`_.
+
+
 =================
 Smart REST Client
 =================
@@ -16,7 +19,7 @@ Requirements
 How to install
 ==============
 
-You can get Django API Client by using pip:
+You can get Smart Rest Client by using pip:
 
 .. code:: shell
 

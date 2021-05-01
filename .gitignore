@@ -46,7 +46,7 @@ coverage.xml
 .hypothesis/
 
 
-# Django API Client:
+# Smart Rest Client:
 *.log
 local_settings.py
 
