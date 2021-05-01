@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8" />
+    
+    <title>2.1. Configurações Disponiveis &mdash; documentação Smart Rest Client 0.1.2</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+
+<link rel="stylesheet" href="../_static/css/basicstrap-base.css" type="text/css" />
+<link rel="stylesheet" id="current-theme" href="../_static/css/bootstrap3/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" id="current-adjust-theme" type="text/css" />
+
+<link rel="stylesheet" href="../_static/css/font-awesome.min.css">
+
+<style type="text/css">
+  body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+</style>
+
+<link rel="stylesheet" href="../_static/css/basicstrap.css" type="text/css" />
+<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+<link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+    
+<script type="text/javascript">
+  var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:    '../',
+            VERSION:     '0.1.2',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE:  true
+  };
+</script>
+    <script type="text/javascript" src="../_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="../_static/js/bootstrap3.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../_static/js/basicstrap.js"></script>
+<script type="text/javascript">
+</script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Buscar" href="../search.html" />
+    <link rel="top" title="documentação Smart Rest Client 0.1.2" href="../index.html" />
+    <link rel="up" title="1. Visão Geral" href="index.html" />
+    <link rel="next" title="1. Development Installation" href="../development/installation.html" />
+    <link rel="prev" title="1. Visão Geral" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div id="navbar-top" class="navbar navbar-fixed-top navbar-default" role="navigation" aria-label="top navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">documentação Smart Rest Client 0.1.2</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown visible-xs">
+                <a role="button" id="localToc" data-toggle="dropdown" data-target="#" href="#">Table Of Contents <b class="caret"></b></a>
+                <ul class="dropdown-menu localtoc sp-localtoc" role="menu" aria-labelledby="localToc">
+                <ul>
+<li><a class="reference internal" href="#">2.1. Configurações Disponiveis</a><ul>
+<li><a class="reference internal" href="#api">2.1.1. API</a></li>
+<li><a class="reference internal" href="#general-defaults">2.1.2. Configuração padrão</a></li>
+</ul>
+</li>
+</ul>
+
+                </ul>
+              </li>
+
+            
+              <li><a href="index.html" title="1. Visão Geral" accesskey="P">anterior </a></li>
+              <li><a href="../development/installation.html" title="1. Development Installation" accesskey="N">próximo </a></li>
+              <li><a href="../genindex.html" title="Índice Geral" accesskey="I">índice </a></li>
+              <li><a href="index.html" accesskey="U"><span class="section-number">1. </span>Visão Geral</a></li>
+            
+            <li class="visible-xs"><a href="../_sources/client/defaults.rst.txt" rel="nofollow">Exibir Fonte</a></li>
+
+            <li class="visible-xs">
+                <form class="search form-search form-inline navbar-form navbar-right sp-searchbox" action="../search.html" method="get">
+                  <div class="input-append input-group">
+                    <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                    <input type="submit" class="btn" value="Ir" />
+                    </span>
+                  </div>
+                  <input type="hidden" name="check_keywords" value="yes" />
+                  <input type="hidden" name="area" value="default" />
+                </form>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- container -->
+    <div class="container-fluid">
+
+      <!-- row -->
+      <div class="row">
+         
+<div class="col-md-3 hidden-xs" id="sidebar-wrapper">
+  <div class="sidebar hidden-xs" role="navigation" aria-label="main navigation">
+  <h3><a href="../index.html">Tabela de Conteúdo</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2.1. Configurações Disponiveis</a><ul>
+<li><a class="reference internal" href="#api">2.1.1. API</a></li>
+<li><a class="reference internal" href="#general-defaults">2.1.2. Configuração padrão</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tópico anterior</h4>
+  <p class="topless"><a href="index.html"
+                        title="capítulo anterior"><span class="section-number">1. </span>Visão Geral</a></p>
+  <h4>Próximo tópico</h4>
+  <p class="topless"><a href="../development/installation.html"
+                        title="próximo capítulo"><span class="section-number">1. </span>Development Installation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Essa Página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/client/defaults.rst.txt"
+            rel="nofollow">Exibir Fonte</a></li>
+    </ul>
+   </div>
+<div id="searchbox" role="search">
+  <h3>Busca rápida</h3>
+  <form class="search form-inline" action="../search.html" method="get">
+      <div class="input-append input-group">
+        <input type="text" class="search-query form-control" name="q" placeholder="Search...">
+        <span class="input-group-btn">
+        <input type="submit" class="btn" value="Ir" />
+        </span>
+      </div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+  </div>
+</div> 
+        
+
+        <div class="col-md-9" id="content-wrapper">
+          <div class="document" role="main">
+            <div class="documentwrapper">
+              <div class="bodywrapper">
+                <div class="body">
+                  
+  <div class="section" id="available-settings">
+<h1><span class="section-number">2.1. </span>Configurações Disponiveis<a class="headerlink" href="#available-settings" title="Link permanente para este título">¶</a></h1>
+<p>Existem algumas configurações que podem ser facilmente customizadas e adicionadas às configurações</p>
+<div class="section" id="api">
+<h2><span class="section-number">2.1.1. </span>API<a class="headerlink" href="#api" title="Link permanente para este título">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">API</span></code> key can be a dictionary in case it is just a single API or a list of dictionaries in case it is multiple APIs “</p>
+<ul class="simple">
+<li><p>AUTHENTICATION_ACCESS_TOKEN</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Usado para passar o Token de Acesso da sua API</p></li>
+<li><p>Padrão: None</p></li>
+<li><p>Requerido: True</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>AUTHENTICATION_ACCESS_TOKEN_TYPE</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Chave usada no <code class="docutils literal notranslate"><span class="pre">Header</span> <span class="pre">Authorization</span></code>. Pode ser <code class="docutils literal notranslate"><span class="pre">Bearer</span></code>, <code class="docutils literal notranslate"><span class="pre">Token</span></code>, etc</p></li>
+<li><p>Padrão: ‘Bearer’</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>AUTHENTICATION_METHOD</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Método utilizado para autenticação. Hoje apenas <code class="docutils literal notranslate"><span class="pre">header</span></code> e <code class="docutils literal notranslate"><span class="pre">url</span></code> usando parâmetros estão disponíveis</p></li>
+<li><p>Padrão: ‘header’</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>AUTHENTICATION_URL_EXTRA_PARAMS</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Parâmetros extras usados para autenticar por URL usando o método GET</p></li>
+<li><p>Padrão: []</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>AUTHENTICATION_URL_KEY</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Chave usada para autenticar por URL usando o método GET</p></li>
+<li><p>Padrão: ‘token’</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>BASE_URL</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: URL da API com o protocolo. Ex: <a class="reference external" href="https://example.com/v1">https://example.com/v1</a></p></li>
+<li><p>Padrão: None</p></li>
+<li><p>Requerido: True</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>ENDPOINTS</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Usado para mapear todos endpoints que você quer acessar</p></li>
+<li><p>Padrão: []</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>LOCALE</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Disponível apenas no método de autenticação <code class="docutils literal notranslate"><span class="pre">header</span></code>, é usado para passar o <code class="docutils literal notranslate"><span class="pre">Accept-Language</span></code> na solicitação</p></li>
+<li><p>Padrão: Linguagem padrão do codigo setada no settings.py</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>NAME</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Apelido usado para instaciar o cliente da API</p></li>
+<li><p>Padrão: None</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>URL_APPEND_SLASH</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Adiciona uma / no fim da URL do endpoint</p></li>
+<li><p>Padrão: True</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>TIMEOUT</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Período de espera pela resposta da requisição</p></li>
+<li><p>Padrão: 3</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="general-defaults">
+<h2><span class="section-number">2.1.2. </span>Configuração padrão<a class="headerlink" href="#general-defaults" title="Link permanente para este título">¶</a></h2>
+<ul class="simple">
+<li><p>PAGE_SIZE</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Usado para definir o tamanho da Paginação</p></li>
+<li><p>Padrão: 100</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p>SLUG_FIELD</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Definição: Change usada para pegar um registro de um endpoint. Use o mesmo identificadorque você recebe no payload</p></li>
+<li><p>Padrão: ‘id’</p></li>
+<li><p>Requerido: False</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div><!-- /row -->
+
+      <!-- row -->
+      <div class="row footer-relbar">
+<div id="navbar-related" class=" related navbar navbar-default" role="navigation" aria-label="related navigation">
+  <div class="navbar-inner">
+    <ul class="nav navbar-nav ">
+        <li><a href="../index.html">documentação Smart Rest Client 0.1.2</a></li>
+    </ul>
+<ul class="nav navbar-nav pull-right hidden-xs hidden-sm">
+      
+        <li><a href="index.html" title="1. Visão Geral" >anterior</a></li>
+        <li><a href="../development/installation.html" title="1. Development Installation" >próximo</a></li>
+        <li><a href="../genindex.html" title="Índice Geral" >índice</a></li>
+        <li><a href="index.html" ><span class="section-number">1. </span>Visão Geral</a></li>
+        <li><a href="#">top</a></li> 
+      
+    </ul>
+  </div>
+</div>
+      </div><!-- /row -->
+
+      <!-- footer -->
+      <footer role="contentinfo">
+          &copy; Copyright 2021, Rafael Henter.
+        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 3.1.2.
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>
