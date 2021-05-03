@@ -233,7 +233,7 @@ class BaseEndpoint:
     def get_endpoint(self, object_id: Any = None, detail: bool = False, *args: Any, **kwargs: Any) -> str:
         if detail:
             if not object_id:
-                raise APIEndpointMissingArgument(_('Identifier is required.'))
+                raise APIEndpointMissingArgument('Identifier is required.')
             path = f'{self.endpoint}/{object_id}/'
             if self.endpoint.endswith('/'):
                 path = f'{self.endpoint}{object_id}/'
@@ -245,7 +245,8 @@ class BaseEndpoint:
                 path = path.format(**kwargs)
             except KeyError:
                 raise APIEndpointMissingArgument(
-                    _('This endpoint contains a Arg in the path and this Arg is required.'))
+                    'This endpoint contains a Arg in the path and this Arg is required.'
+                )
         return path
 
     def list(self, *args: Any, **kwargs: Any) -> ResponseFactory:
@@ -278,7 +279,6 @@ class BaseEndpoint:
             RequestException: An error thrown by Requests library.
             ValueError: An error thrown by json parser, if JSON decoding fails.
             APIError: An error occurred while requesting the API.
-
         """
         endpoint = self.get_endpoint(object_id, detail=True, *args, **kwargs)
         return self._api.search(endpoint)
@@ -291,7 +291,6 @@ class BaseEndpoint:
             *args: Any,
             **kwargs: Any
     ) -> ResponseFactory:
-
         """Update a single Object.
 
         Args:
