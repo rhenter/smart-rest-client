@@ -1,4 +1,5 @@
 from typing import Any
+from urllib.parse import urlparse
 
 from simple_model import Model
 from simple_model.builder import model_builder
@@ -9,10 +10,11 @@ class ResponseFactory:
     Return a API Response object
     """
 
-    def __init__(self, response: Any, endpoint: str = '') -> None:
+    def __init__(self, response: Any, endpoint: str = '', api_client=None) -> None:
         self.endpoint = endpoint
         self.response_name = self._get_response_name()
         self.raw = response
+        self.api_client = api_client
 
     def __repr__(self) -> str:
         return '<APIClient {} object>'.format(self.response_name)
@@ -53,3 +55,17 @@ class ResponseFactory:
     def as_obj(self) -> Model:
         result = self.as_dict()
         return model_builder(result, class_name=self.response_name)
+
+    def next(self):
+        if 'next' not in self.as_dict():
+            return
+
+        next_url = self.as_dict()['next']
+        url_data = urlparse(next_url)
+        endpoint = url_data.path
+
+        response = self.api_client.make_request(
+            method_name='GET',
+            endpoint=f'{endpoint}?{url_data.query}',
+        )
+        return type(self)(response=response, endpoint=endpoint, api_client=self.api_client)
