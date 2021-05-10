@@ -1,3 +1,8 @@
+0.2.0
+-----
+
+- Add next page function
+
 0.1.3
 -----
 
