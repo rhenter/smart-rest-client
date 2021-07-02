@@ -1,3 +1,8 @@
+0.3.0
+-----
+
+- Refactor ResponseFactory using a better repr and str.
+
 0.2.0
 -----
 

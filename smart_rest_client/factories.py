@@ -11,16 +11,17 @@ class ResponseFactory:
     """
 
     def __init__(self, response: Any, endpoint: str = '', api_client=None) -> None:
-        self.endpoint = endpoint
-        self.response_name = self._get_response_name()
-        self.raw = response
         self.api_client = api_client
+        self.endpoint = endpoint
+        self.raw = response
+        self.response_name = self._get_response_name()
+        self.status_code = response.status_code
 
     def __repr__(self) -> str:
-        return '<APIClient {} object>'.format(self.response_name)
+        return f'<APIClient {self.response_name} - Status: [{self.status_code}]>'
 
     def __str__(self) -> str:
-        return self.response_name
+        return f'{self.response_name} - Status: [{self.status_code}]>'
 
     def _get_response_first_name(self, endpoint: str) -> Any:
         words = [key for key in endpoint.split('/') if key]
