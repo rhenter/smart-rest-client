@@ -19,6 +19,8 @@ class APIClientEndpointList:
     def _get_endpoint_base_name(self, endpoint: str) -> Any:
         words = [key for key in endpoint.split('?')[0].split('/') if key]
         response_name = words[-1]
+        if '{' in response_name:
+            response_name = words[-2]
         if '-' in response_name:
             response_name = response_name.replace('-', '_')
         return response_name

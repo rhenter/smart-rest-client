@@ -1,3 +1,8 @@
+0.3.1
+-----
+
+- BugFix: { in the response_name breaking the client
+
 0.3.0
 -----
 
