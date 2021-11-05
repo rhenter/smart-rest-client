@@ -1,3 +1,7 @@
+0.4.0
+
+- Add condition to add special types to serialize on json_converter function
+
 0.3.1
 -----
 
