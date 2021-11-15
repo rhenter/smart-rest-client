@@ -55,18 +55,13 @@ def labelize(text: str) -> str:
     return ' '.join([t.capitalize() for t in text.replace('_', ' ').split(' ')])
 
 
-def json_converter(output, addicional_types=None):
-    special_types = [
+def json_converter(output):
+    special_types = (
         datetime.datetime,
         datetime.date,
         UUID,
         Decimal,
-    ]
-    if isinstance(addicional_types, list) or isinstance(addicional_types, tuple):
-        special_types += addicional_types
-    else:
-        special_types.append(addicional_types)
-
+    )
     special_conditions = []
     for special_type in special_types:
         special_conditions.append(isinstance(output, special_type))
