@@ -1,3 +1,8 @@
+0.4.2
+-----
+
+- Return empty when the value is Nan on json_converter
+
 0.4.1
 -----
 

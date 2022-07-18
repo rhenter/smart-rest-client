@@ -1,5 +1,6 @@
 import codecs
 import datetime
+import math
 import os
 import re
 from decimal import Decimal
@@ -56,6 +57,9 @@ def labelize(text: str) -> str:
 
 
 def json_converter(output):
+    if math.isnan(output):
+        return ''
+
     special_types = (
         datetime.datetime,
         datetime.date,
@@ -68,6 +72,7 @@ def json_converter(output):
 
     if any(special_conditions):
         return output.__str__()
+
     return output
 
 
