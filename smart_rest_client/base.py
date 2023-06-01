@@ -144,7 +144,7 @@ class BaseAPI:
             dict: Data retrieved for specified endpoint.
         """
         if content_type == 'application/json' or not files:
-            data = json.dumps(data, default=json_converter)
+            data = json.dumps(data, default=str)
         response = self.make_request('POST', endpoint, data=data, files=files, content_type=content_type)
         return self._render_response(response, endpoint)
 
