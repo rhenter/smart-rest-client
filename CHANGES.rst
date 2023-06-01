@@ -1,3 +1,8 @@
+0.4.3
+-----
+
+- Change encoder default in json to be 'str'
+
 0.4.2
 -----
 
