@@ -7,7 +7,6 @@ from requests.exceptions import ConnectionError as RequestsConnectionError, Read
 
 from .exceptions import APIEndpointMissingArgument, APIUnreachableOrOffline
 from .factories import ResponseFactory
-from .utils import json_converter
 from .validators import validate_status_code
 
 
@@ -144,7 +143,7 @@ class BaseAPI:
             dict: Data retrieved for specified endpoint.
         """
         if content_type == 'application/json' or not files:
-            data = json.dumps(data, default=json_converter)
+            data = json.dumps(data, default=str)
         response = self.make_request('POST', endpoint, data=data, files=files, content_type=content_type)
         return self._render_response(response, endpoint)
 
@@ -170,7 +169,7 @@ class BaseAPI:
         """
         method = 'PATCH' if partial else 'PUT'
         if content_type == 'application/json':
-            data = json.dumps(data, default=json_converter)
+            data = json.dumps(data, default=str)
 
         if files:
             response = self.make_request(method, endpoint, data=data, files=files, content_type=content_type)
